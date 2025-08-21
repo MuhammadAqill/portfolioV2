@@ -1,0 +1,238 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    background-color: black;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* --------------------------------- Style ----------------------------------------- */
+
+/* navbar */html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    background-color: rgb(15, 14, 16);
+    font-family: monospace;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* --------------------------------- Style ----------------------------------------- */
+
+/* ----------------- navbar ----------------- */
+
+h1, h2, h3, h4, h5, h6, p {color: white;}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: rgb(15, 14, 16);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    border-bottom: 2px solid purple;
+    z-index: 99999;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85px;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 1.125rem;
+    margin-left: 10rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    transition: 500ms;
+}
+
+.navbar a:hover {
+    color: rgb(183, 117, 255);
+}
+
+/* ----------------- container ----------------- */
+
+.container {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 7em;
+    margin-top: 10em;
+}
+
+.container .p-1 {
+    font-size: 1.5rem;
+    letter-spacing: 0.3125rem;
+    color: rgb(183, 117, 255);
+    min-height: 10vh;
+    line-height: 1.6;
+}
+
+.container .p-2 {
+    font-size: 1em;
+    min-height: 1vh;
+}
+
+.container .h2-1 {
+    font-size: 6vmax;
+    font-weight: bold;
+}
+
+/* ----------------- background image patern ----------------- */
+
+.container-patern {
+    /* height: 18.75rem; */
+    height: 20vmax;
+    /* background-color: black; */
+}
+
+.bg-patern {
+    background: 
+        radial-gradient(ellipse at center, rgba(200, 100, 255, 0.1) 0%, transparent 60%),
+        radial-gradient(ellipse at center, rgba(150, 0, 255, 0.3) 0%, transparent 70%),
+        radial-gradient(ellipse at center, rgba(100, 0, 255, 0.1) 0%, transparent 80%);
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vmax;
+    position: relative;
+    margin-top: 3.75rem;
+}
+
+/* ----------------- Services ----------------- */
+
+.h2-service {
+    text-align: center;
+    margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.container-services {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.06);
+    box-shadow: rgba(106, 30, 188, 0.2) 0px 12px 90px 0px;
+    border: 1px solid rgba(248, 249, 250, 0.25);
+    border-radius: 32px;
+}
+
+.container-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.service-1, .service-2, .service-3, .service-4, .service-5, .service-6 {
+    height: 22rem;
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(248, 249, 250, 0.25);
+    margin: 0.9375rem 0.9375rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 1em;
+}
+
+.icon-style {
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+    padding: 0.3125rem;
+    margin-top: 1.3rem;
+    background-color: red;
+    margin-bottom: 10vh;
+}
+
+.p-style {
+    min-height: 100vh;
+    font-size: 1.4em;
+    line-height: 1.6;
+}
