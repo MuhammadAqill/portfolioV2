@@ -211,7 +211,7 @@ h1, h2, h3, h4, h5, h6, p {color: white;}
 }
 
 .service-1, .service-2, .service-3, .service-4, .service-5, .service-6 {
-    height: 22rem;
+    /* height: 40%; */
     /* max-width: 400px; */
     width: 20vw;
     background-color: rgba(255, 255, 255, 0.06);
@@ -221,8 +221,8 @@ h1, h2, h3, h4, h5, h6, p {color: white;}
     flex-wrap: wrap;
     justify-content: center;
     padding: 0 1em;
-    font-size: 1.2em;
-    /* line-height: 1.2; */
+    line-height: 1.6;
+
 }
 
 .icon-style {
@@ -230,12 +230,13 @@ h1, h2, h3, h4, h5, h6, p {color: white;}
     font-size: 5rem;
     padding: 0.3125rem;
     margin-top: 1.3rem;
-    background-color: red;
-    margin-bottom: 10vh;
+    /* background-color: red; */
+    margin-bottom: 8vh;
 }
 
-/* .p-style {
-    min-height: 100vh;
-    font-size: 1.4em;
+.p-style {
+    /* min-height: 100vh; */
+    font-size: 1em;
     line-height: 1.6;
-} */
+    padding: 2em 2em;
+}
