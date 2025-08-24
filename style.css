@@ -223,7 +223,19 @@ h1, h2, h3, h4, h5, h6, p {color: white;}
     padding: 0 1em;
     line-height: 1.6;
     border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.service-1:hover,
+.service-2:hover,
+.service-3:hover,
+.service-4:hover,
+.service-5:hover,
+.service-6:hover {
+  transform: translateY(-5px);
+  box-shadow: 2px 6px 18px rgba(255, 255, 255, 0.1);
+}
+
 
 .icon-style {
     color: rgb(255, 255, 255);
