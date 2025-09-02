@@ -264,8 +264,23 @@ h1, h2, h3, h4, h5, h6, p {color: white;}
     align-items: baseline;
 }
 
+/* ----------------- CONTACT ----------------- */
+
+.container-contact {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.06);
+    box-shadow: rgba(106, 30, 188, 0.2) 0px 12px 90px 0px;
+    border: 1px solid rgba(248, 249, 250, 0.25);
+    border-radius: 32px;
+}
+
 .web-dev {
-    padding: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* background-color: purple; */
+    
 }
 
 .web-dev img{
@@ -274,18 +289,69 @@ h1, h2, h3, h4, h5, h6, p {color: white;}
     box-shadow: rgba(106, 30, 188, 0.2) 0px 12px 90px 0px;
     border: 1px solid rgba(248, 249, 250, 0.25);
     border-radius: 32px;
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .description-contact-me {
-    max-width: 30rem;
-    max-height: 240px;
-    background-color: red;  
-    margin-top: 131.333333333px;
-    border-radius: 10px;
+    max-width: 500px;
+    /* background-color: red; */
 }
 
 .p-style-contact {
-    font-size: 30px;
-    line-height: 1.6;
+    font-size: 20px;
+    line-height: 2;
     padding: 2em 2em;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+/* ----------------- BUTTON ----------------- */
+
+.button {
+  align-items: center;
+  appearance: none;
+  background-color: #d25525;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
 }
