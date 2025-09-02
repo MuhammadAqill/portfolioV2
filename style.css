@@ -239,7 +239,6 @@ h1, h2, h3, h4, h5, h6, p {color: white;}
     font-size: 5rem;
     padding: 0.3125rem;
     margin-top: 1.3rem;
-    /* background-color: red; */
     margin-bottom: 8vh;
 }
 
@@ -265,6 +264,28 @@ h1, h2, h3, h4, h5, h6, p {color: white;}
     align-items: baseline;
 }
 
+.web-dev {
+    padding: 50px;
+}
+
 .web-dev img{
     max-width: 100%;
+    background-color: rgba(255, 255, 255, 0.06);
+    box-shadow: rgba(106, 30, 188, 0.2) 0px 12px 90px 0px;
+    border: 1px solid rgba(248, 249, 250, 0.25);
+    border-radius: 32px;
+}
+
+.description-contact-me {
+    max-width: 30rem;
+    max-height: 240px;
+    background-color: red;  
+    margin-top: 131.333333333px;
+    border-radius: 10px;
+}
+
+.p-style-contact {
+    font-size: 30px;
+    line-height: 1.6;
+    padding: 2em 2em;
 }
