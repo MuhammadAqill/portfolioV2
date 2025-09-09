@@ -355,3 +355,10 @@ h1, h2, h3, h4, h5, h6, p {color: white;}
   box-shadow: #D6D6E7 0 3px 7px inset;
   transform: translateY(2px);
 }
+
+.copyright {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
