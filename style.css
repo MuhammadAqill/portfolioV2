@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6, p {color: white;}
 .navdiv {
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     height: 85px;
 }
 
@@ -361,4 +361,26 @@ h1, h2, h3, h4, h5, h6, p {color: white;}
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* navbar media query 1000*915 */
+@media (max-width: 1002px) {
+    .navbar {
+        backdrop-filter: none;
+    }
+
+    .navbar .navdiv {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.7rem !important;
+        position: absolute;
+        height: 100vh;
+        width: 250px;
+        top: 0;
+        right: 0;
+        padding: 5rem 1.5rem;
+        box-shadow: 0 10px rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(10px);
+        display: inline-block;
+    }
 }
