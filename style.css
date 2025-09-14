@@ -278,11 +278,13 @@ h1, h2, h3, h4, h5, h6, p {color: white;}
     box-shadow: rgba(106, 30, 188, 0.2) 0px 12px 90px 0px;
     border: 1px solid rgba(248, 249, 250, 0.25);
     border-radius: 32px;
+    padding-bottom: 10px;
 }
 
 .web-dev {
     margin-top: 10px;
     margin-bottom: 10px;
+    padding: 10px 20px 0 20px;
     /* background-color: purple; */
     
 }
